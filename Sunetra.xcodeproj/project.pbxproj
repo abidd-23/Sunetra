@@ -1,0 +1,942 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		058165402BFB5AA1003C7FEC /* Exercises.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0581653F2BFB5AA1003C7FEC /* Exercises.storyboard */; };
+		0591DCE02BFB051700CBCF36 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0591DCDF2BFB051700CBCF36 /* Profile.storyboard */; };
+		0591DCE42BFB2FB900CBCF36 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591DCE32BFB2FB900CBCF36 /* ProfileTableViewController.swift */; };
+		05BA4B812BF61E4600385196 /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BA4B802BF61E4600385196 /* ProgressViewController.swift */; };
+		05C8F2952BF36A2B00CB1F67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C8F2942BF36A2B00CB1F67 /* AppDelegate.swift */; };
+		05C8F2972BF36A2B00CB1F67 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C8F2962BF36A2B00CB1F67 /* SceneDelegate.swift */; };
+		05C8F29C2BF36A2B00CB1F67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05C8F29A2BF36A2B00CB1F67 /* Main.storyboard */; };
+		05C8F29E2BF36A2B00CB1F67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05C8F29D2BF36A2B00CB1F67 /* Assets.xcassets */; };
+		05C8F2A12BF36A2B00CB1F67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05C8F29F2BF36A2B00CB1F67 /* LaunchScreen.storyboard */; };
+		26B15BD82C0991A800327DBA /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B15BD72C0991A800327DBA /* UserInfo.swift */; };
+		26B925042C08482700DDD13B /* OnboardingSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B925032C08482700DDD13B /* OnboardingSecondViewController.swift */; };
+		26B9D5FC2C07758F00EE547D /* DetectionResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B9D5FB2C07758F00EE547D /* DetectionResultViewController.swift */; };
+		26B9D6002C0776B000EE547D /* WeeklyDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B9D5FF2C0776B000EE547D /* WeeklyDetectionViewController.swift */; };
+		26B9D6022C0779A300EE547D /* PersonalDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B9D6012C0779A300EE547D /* PersonalDetailsViewController.swift */; };
+		511E4C5C2C11D43D0006FD7B /* FAQTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511E4C5B2C11D43D0006FD7B /* FAQTableViewController.swift */; };
+		5128B4542BFDC37B00119159 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5128B4532BFDC37B00119159 /* Onboarding.storyboard */; };
+		5128B4582BFDD53900119159 /* DetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5128B4572BFDD53900119159 /* DetectionViewController.swift */; };
+		5137601F2C190B3600305A90 /* DetectionAvatarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5137601E2C190B3600305A90 /* DetectionAvatarViewController.swift */; };
+		519C0FE92C175096001DEEBD /* ML_Model_v2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 519C0FE82C175096001DEEBD /* ML_Model_v2.mlmodel */; };
+		51BF6D3C2C0ED9080033CCC7 /* UIImage+PixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BF6D3B2C0ED9080033CCC7 /* UIImage+PixelBuffer.swift */; };
+		51BF6D3E2C0ED9E80033CCC7 /* ML_Model.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 51BF6D3D2C0ED9E80033CCC7 /* ML_Model.mlmodel */; };
+		51E507442C048B0F0067016F /* OnboardingStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E507432C048B0F0067016F /* OnboardingStartViewController.swift */; };
+		51E5EDC72C050F8600180A1C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E5EDC62C050F8600180A1C /* GameScene.swift */; };
+		51E5EDC92C050F9D00180A1C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E5EDC82C050F9D00180A1C /* GameViewController.swift */; };
+		51E5EDCB2C050FC700180A1C /* FlappyBird.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51E5EDCA2C050FC700180A1C /* FlappyBird.storyboard */; };
+		51E5EDCD2C05100900180A1C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 51E5EDCC2C05100900180A1C /* GameScene.sks */; };
+		51E5EDCF2C05104E00180A1C /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 51E5EDCE2C05104E00180A1C /* Actions.sks */; };
+		51E5EDD52C05130500180A1C /* pipe1.png in Resources */ = {isa = PBXBuildFile; fileRef = 51E5EDD02C05130500180A1C /* pipe1.png */; };
+		51E5EDD62C05130500180A1C /* pipe2.png in Resources */ = {isa = PBXBuildFile; fileRef = 51E5EDD12C05130500180A1C /* pipe2.png */; };
+		51E5EDD72C05130500180A1C /* flappy1.png in Resources */ = {isa = PBXBuildFile; fileRef = 51E5EDD22C05130500180A1C /* flappy1.png */; };
+		51E5EDD82C05130500180A1C /* flappy2.png in Resources */ = {isa = PBXBuildFile; fileRef = 51E5EDD32C05130500180A1C /* flappy2.png */; };
+		51E5EDD92C05130500180A1C /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 51E5EDD42C05130500180A1C /* bg.png */; };
+		51E5EDDC2C05165800180A1C /* BallTracking.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51E5EDDB2C05165800180A1C /* BallTracking.storyboard */; };
+		51E611642C0989D800390133 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E611632C0989D800390133 /* DataController.swift */; };
+		51F61C8D2C0446BB00CC5FEC /* OnboardingFinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F61C8C2C0446BB00CC5FEC /* OnboardingFinalViewController.swift */; };
+		51F61C912C045CDE00CC5FEC /* WeeklyDetection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51F61C902C045CDE00CC5FEC /* WeeklyDetection.storyboard */; };
+		51F61C952C045F0900CC5FEC /* WeeklyDetectionResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F61C942C045F0900CC5FEC /* WeeklyDetectionResultViewController.swift */; };
+		628589FC2C142194003BB052 /* PaddedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628589FB2C142194003BB052 /* PaddedLabel.swift */; };
+		62AA2B2A2BF7110A003FAACB /* Detection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62AA2B292BF7110A003FAACB /* Detection.storyboard */; };
+		62AA2BAA2C035A4D003FAACB /* First.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62AA2BA92C035A4D003FAACB /* First.xib */; };
+		62AA2BAC2C035AC1003FAACB /* Second.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62AA2BAB2C035AC1003FAACB /* Second.xib */; };
+		62AA2BAE2C03962A003FAACB /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AA2BAD2C03962A003FAACB /* DataModel.swift */; };
+		62AA2BB02C039828003FAACB /* ExercisesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AA2BAF2C039828003FAACB /* ExercisesViewController.swift */; };
+		62AA2BB22C039E62003FAACB /* FirstCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AA2BB12C039E62003FAACB /* FirstCollectionViewCell.swift */; };
+		62AA2BB42C039E7A003FAACB /* SecondCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AA2BB32C039E7A003FAACB /* SecondCollectionViewCell.swift */; };
+		62AA2BB62C045A6A003FAACB /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AA2BB52C045A6A003FAACB /* UIColor+Hex.swift */; };
+		62AA2BBA2C059EAC003FAACB /* FlappyStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AA2BB92C059EAC003FAACB /* FlappyStartViewController.swift */; };
+		62AA2BBC2C059F59003FAACB /* TetrisStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AA2BBB2C059F59003FAACB /* TetrisStartViewController.swift */; };
+		62AA2BC02C05B3E8003FAACB /* FirstSection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62AA2BBF2C05B3E8003FAACB /* FirstSection.storyboard */; };
+		62AA2BC22C087650003FAACB /* Third.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62AA2BC12C087650003FAACB /* Third.xib */; };
+		62AA2C132C0AF1B4003FAACB /* Fourth.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62AA2C122C0AF1B4003FAACB /* Fourth.xib */; };
+		62AA2C152C0B487B003FAACB /* GamesProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AA2C142C0B487B003FAACB /* GamesProgressViewController.swift */; };
+		62AA2C172C0B48EC003FAACB /* FourthCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AA2C162C0B48EC003FAACB /* FourthCollectionViewCell.swift */; };
+		62AA2C1D2C1168E7003FAACB /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 62AA2C1C2C1168E7003FAACB /* FirebaseFirestore */; };
+		62B5E40E2C1473BE00752B69 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 62B5E40D2C1473BE00752B69 /* FirebaseStorage */; };
+		62B5E4112C15663600752B69 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 62B5E4102C15663600752B69 /* GoogleSignIn */; };
+		62B5E4132C15663600752B69 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 62B5E4122C15663600752B69 /* GoogleSignInSwift */; };
+		7A475CE32C06DFC30027E5EF /* eye_exercise.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7A475CE22C06DFC20027E5EF /* eye_exercise.mp4 */; };
+		7A475CE52C06E02A0027E5EF /* ballTrackingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A475CE42C06E02A0027E5EF /* ballTrackingViewController.swift */; };
+		7A475CE72C06E22E0027E5EF /* ballTrackingStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A475CE62C06E22E0027E5EF /* ballTrackingStartViewController.swift */; };
+		7A6AE4022BFB0B0A0058B46E /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A6AE4012BFB0B0A0058B46E /* Login.storyboard */; };
+		7A77CE052BFDABD0000B6365 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A77CE042BFDABD0000B6365 /* loginViewController.swift */; };
+		7A77CE072BFDABE8000B6365 /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A77CE062BFDABE8000B6365 /* signUpViewController.swift */; };
+		7A77CE092BFDADBB000B6365 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A77CE082BFDADBB000B6365 /* GoogleService-Info.plist */; };
+		7A77CE0C2BFDAE2F000B6365 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7A77CE0B2BFDAE2F000B6365 /* FirebaseAuth */; };
+		7ACD8E362C048336003BEF3A /* Abang.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7ACD8E342C048336003BEF3A /* Abang.otf */; };
+		7ACD8E372C048336003BEF3A /* tetris_soundtrack.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7ACD8E352C048336003BEF3A /* tetris_soundtrack.mp3 */; };
+		7ACD8E3A2C048362003BEF3A /* SongKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACD8E392C048362003BEF3A /* SongKeys.swift */; };
+		7ACD8E3C2C048371003BEF3A /* StoreKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACD8E3B2C048371003BEF3A /* StoreKeys.swift */; };
+		7ACD8E3E2C048380003BEF3A /* SequeKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACD8E3D2C048380003BEF3A /* SequeKeys.swift */; };
+		7ACD8E412C04839A003BEF3A /* ColorKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACD8E402C04839A003BEF3A /* ColorKeys.swift */; };
+		7ACD8E442C0483E6003BEF3A /* MovementDirectionEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACD8E432C0483E6003BEF3A /* MovementDirectionEnum.swift */; };
+		7ACD8E462C0483F9003BEF3A /* ServiceLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACD8E452C0483F9003BEF3A /* ServiceLocator.swift */; };
+		7ACD8E482C04840C003BEF3A /* ViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACD8E472C04840C003BEF3A /* ViewHelper.swift */; };
+		7ACD8E4A2C048431003BEF3A /* ViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACD8E492C048431003BEF3A /* ViewControllerExtensions.swift */; };
+		7ACD8E4C2C048441003BEF3A /* TetrominoDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACD8E4B2C048441003BEF3A /* TetrominoDrawer.swift */; };
+		7ACD8E4F2C0484A9003BEF3A /* MediaPlayerServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACD8E4E2C0484A9003BEF3A /* MediaPlayerServiceProtocol.swift */; };
+		7ACD8E512C0484BC003BEF3A /* MediaPlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACD8E502C0484BC003BEF3A /* MediaPlayerService.swift */; };
+		7ACD8E552C0484DF003BEF3A /* GameServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACD8E542C0484DF003BEF3A /* GameServiceProtocol.swift */; };
+		7ACD8E572C0484F2003BEF3A /* GameService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACD8E562C0484F2003BEF3A /* GameService.swift */; };
+		7ACD8E592C04850B003BEF3A /* TimerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACD8E582C04850B003BEF3A /* TimerService.swift */; };
+		7ACD8E5B2C04851A003BEF3A /* TimerServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACD8E5A2C04851A003BEF3A /* TimerServiceProtocol.swift */; };
+		7ACD8E5D2C04852B003BEF3A /* BoardServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACD8E5C2C04852B003BEF3A /* BoardServiceProtocol.swift */; };
+		7ACD8E612C048546003BEF3A /* BoardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACD8E602C048546003BEF3A /* BoardService.swift */; };
+		7ACD8E632C04855B003BEF3A /* TetrominoHelperProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACD8E622C04855B003BEF3A /* TetrominoHelperProtocol.swift */; };
+		7ACD8E652C04856D003BEF3A /* TetrominoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACD8E642C04856D003BEF3A /* TetrominoHelper.swift */; };
+		7ACD8E682C0486BB003BEF3A /* Tetris.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ACD8E672C0486BB003BEF3A /* Tetris.storyboard */; };
+		7ACD8E6A2C04873A003BEF3A /* TetrisMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACD8E692C04873A003BEF3A /* TetrisMainViewController.swift */; };
+		7ACD8E6C2C04879A003BEF3A /* BoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACD8E6B2C04879A003BEF3A /* BoardViewController.swift */; };
+		7ACD8E6E2C048812003BEF3A /* NextTetrominoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACD8E6D2C048812003BEF3A /* NextTetrominoViewController.swift */; };
+		7ACD8E702C04882D003BEF3A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACD8E6F2C04882D003BEF3A /* SettingsViewController.swift */; };
+		7ADED73A2C0ED20A009339FB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADED7392C0ED20A009339FB /* Extensions.swift */; };
+		7AF257C22C0488D700359DBD /* TetrisAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AF257C12C0488D700359DBD /* TetrisAssets.xcassets */; };
+		7AF257C52C04898900359DBD /* Tetromino.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF257C42C04898900359DBD /* Tetromino.swift */; };
+		7AF257C72C0489A400359DBD /* tetrisboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF257C62C0489A400359DBD /* tetrisboard.swift */; };
+		9BFD6ECB2C136CB200BC39D3 /* WeeklyProgress.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BFD6ECA2C136CB200BC39D3 /* WeeklyProgress.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0581653F2BFB5AA1003C7FEC /* Exercises.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Exercises.storyboard; sourceTree = "<group>"; };
+		0591DCDF2BFB051700CBCF36 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		0591DCE32BFB2FB900CBCF36 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		05BA4B802BF61E4600385196 /* ProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
+		05C8F2912BF36A2B00CB1F67 /* Sunetra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sunetra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05C8F2942BF36A2B00CB1F67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		05C8F2962BF36A2B00CB1F67 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		05C8F29B2BF36A2B00CB1F67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05C8F29D2BF36A2B00CB1F67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05C8F2A02BF36A2B00CB1F67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		05C8F2A22BF36A2B00CB1F67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26B15BD72C0991A800327DBA /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		26B925032C08482700DDD13B /* OnboardingSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSecondViewController.swift; sourceTree = "<group>"; };
+		26B9D5FB2C07758F00EE547D /* DetectionResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectionResultViewController.swift; sourceTree = "<group>"; };
+		26B9D5FF2C0776B000EE547D /* WeeklyDetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyDetectionViewController.swift; sourceTree = "<group>"; };
+		26B9D6012C0779A300EE547D /* PersonalDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDetailsViewController.swift; sourceTree = "<group>"; };
+		511E4C5B2C11D43D0006FD7B /* FAQTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQTableViewController.swift; sourceTree = "<group>"; };
+		5128B4532BFDC37B00119159 /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		5128B4572BFDD53900119159 /* DetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectionViewController.swift; sourceTree = "<group>"; };
+		5137601E2C190B3600305A90 /* DetectionAvatarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectionAvatarViewController.swift; sourceTree = "<group>"; };
+		519C0FE82C175096001DEEBD /* ML_Model_v2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ML_Model_v2.mlmodel; sourceTree = "<group>"; };
+		51BF6D3B2C0ED9080033CCC7 /* UIImage+PixelBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+PixelBuffer.swift"; sourceTree = "<group>"; };
+		51BF6D3D2C0ED9E80033CCC7 /* ML_Model.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ML_Model.mlmodel; sourceTree = "<group>"; };
+		51E507432C048B0F0067016F /* OnboardingStartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingStartViewController.swift; sourceTree = "<group>"; };
+		51E5EDC62C050F8600180A1C /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		51E5EDC82C050F9D00180A1C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		51E5EDCA2C050FC700180A1C /* FlappyBird.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FlappyBird.storyboard; sourceTree = "<group>"; };
+		51E5EDCC2C05100900180A1C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		51E5EDCE2C05104E00180A1C /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		51E5EDD02C05130500180A1C /* pipe1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pipe1.png; path = Sunetra/pipe1.png; sourceTree = SOURCE_ROOT; };
+		51E5EDD12C05130500180A1C /* pipe2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pipe2.png; path = Sunetra/pipe2.png; sourceTree = SOURCE_ROOT; };
+		51E5EDD22C05130500180A1C /* flappy1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = flappy1.png; path = Sunetra/flappy1.png; sourceTree = SOURCE_ROOT; };
+		51E5EDD32C05130500180A1C /* flappy2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = flappy2.png; path = Sunetra/flappy2.png; sourceTree = SOURCE_ROOT; };
+		51E5EDD42C05130500180A1C /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg.png; path = Sunetra/bg.png; sourceTree = SOURCE_ROOT; };
+		51E5EDDB2C05165800180A1C /* BallTracking.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BallTracking.storyboard; sourceTree = "<group>"; };
+		51E611632C0989D800390133 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		51F61C8C2C0446BB00CC5FEC /* OnboardingFinalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFinalViewController.swift; sourceTree = "<group>"; };
+		51F61C902C045CDE00CC5FEC /* WeeklyDetection.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WeeklyDetection.storyboard; sourceTree = "<group>"; };
+		51F61C942C045F0900CC5FEC /* WeeklyDetectionResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyDetectionResultViewController.swift; sourceTree = "<group>"; };
+		628589FB2C142194003BB052 /* PaddedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddedLabel.swift; sourceTree = "<group>"; };
+		62AA2B292BF7110A003FAACB /* Detection.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Detection.storyboard; sourceTree = "<group>"; };
+		62AA2BA92C035A4D003FAACB /* First.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = First.xib; sourceTree = "<group>"; };
+		62AA2BAB2C035AC1003FAACB /* Second.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Second.xib; sourceTree = "<group>"; };
+		62AA2BAD2C03962A003FAACB /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		62AA2BAF2C039828003FAACB /* ExercisesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesViewController.swift; sourceTree = "<group>"; };
+		62AA2BB12C039E62003FAACB /* FirstCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstCollectionViewCell.swift; sourceTree = "<group>"; };
+		62AA2BB32C039E7A003FAACB /* SecondCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCollectionViewCell.swift; sourceTree = "<group>"; };
+		62AA2BB52C045A6A003FAACB /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		62AA2BB92C059EAC003FAACB /* FlappyStartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlappyStartViewController.swift; sourceTree = "<group>"; };
+		62AA2BBB2C059F59003FAACB /* TetrisStartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetrisStartViewController.swift; sourceTree = "<group>"; };
+		62AA2BBF2C05B3E8003FAACB /* FirstSection.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FirstSection.storyboard; sourceTree = "<group>"; };
+		62AA2BC12C087650003FAACB /* Third.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Third.xib; sourceTree = "<group>"; };
+		62AA2C122C0AF1B4003FAACB /* Fourth.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Fourth.xib; sourceTree = "<group>"; };
+		62AA2C142C0B487B003FAACB /* GamesProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesProgressViewController.swift; sourceTree = "<group>"; };
+		62AA2C162C0B48EC003FAACB /* FourthCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthCollectionViewCell.swift; sourceTree = "<group>"; };
+		62B5E4142C15A34C00752B69 /* Sunetra.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sunetra.entitlements; sourceTree = "<group>"; };
+		7A475CE22C06DFC20027E5EF /* eye_exercise.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = eye_exercise.mp4; sourceTree = "<group>"; };
+		7A475CE42C06E02A0027E5EF /* ballTrackingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ballTrackingViewController.swift; sourceTree = "<group>"; };
+		7A475CE62C06E22E0027E5EF /* ballTrackingStartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ballTrackingStartViewController.swift; sourceTree = "<group>"; };
+		7A6AE4012BFB0B0A0058B46E /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		7A77CE042BFDABD0000B6365 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		7A77CE062BFDABE8000B6365 /* signUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
+		7A77CE082BFDADBB000B6365 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7ACD8E342C048336003BEF3A /* Abang.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Abang.otf; sourceTree = "<group>"; };
+		7ACD8E352C048336003BEF3A /* tetris_soundtrack.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tetris_soundtrack.mp3; sourceTree = "<group>"; };
+		7ACD8E392C048362003BEF3A /* SongKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongKeys.swift; sourceTree = "<group>"; };
+		7ACD8E3B2C048371003BEF3A /* StoreKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKeys.swift; sourceTree = "<group>"; };
+		7ACD8E3D2C048380003BEF3A /* SequeKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequeKeys.swift; sourceTree = "<group>"; };
+		7ACD8E402C04839A003BEF3A /* ColorKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorKeys.swift; sourceTree = "<group>"; };
+		7ACD8E432C0483E6003BEF3A /* MovementDirectionEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementDirectionEnum.swift; sourceTree = "<group>"; };
+		7ACD8E452C0483F9003BEF3A /* ServiceLocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLocator.swift; sourceTree = "<group>"; };
+		7ACD8E472C04840C003BEF3A /* ViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHelper.swift; sourceTree = "<group>"; };
+		7ACD8E492C048431003BEF3A /* ViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtensions.swift; sourceTree = "<group>"; };
+		7ACD8E4B2C048441003BEF3A /* TetrominoDrawer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetrominoDrawer.swift; sourceTree = "<group>"; };
+		7ACD8E4E2C0484A9003BEF3A /* MediaPlayerServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPlayerServiceProtocol.swift; sourceTree = "<group>"; };
+		7ACD8E502C0484BC003BEF3A /* MediaPlayerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPlayerService.swift; sourceTree = "<group>"; };
+		7ACD8E542C0484DF003BEF3A /* GameServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameServiceProtocol.swift; sourceTree = "<group>"; };
+		7ACD8E562C0484F2003BEF3A /* GameService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameService.swift; sourceTree = "<group>"; };
+		7ACD8E582C04850B003BEF3A /* TimerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerService.swift; sourceTree = "<group>"; };
+		7ACD8E5A2C04851A003BEF3A /* TimerServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerServiceProtocol.swift; sourceTree = "<group>"; };
+		7ACD8E5C2C04852B003BEF3A /* BoardServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardServiceProtocol.swift; sourceTree = "<group>"; };
+		7ACD8E602C048546003BEF3A /* BoardService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardService.swift; sourceTree = "<group>"; };
+		7ACD8E622C04855B003BEF3A /* TetrominoHelperProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetrominoHelperProtocol.swift; sourceTree = "<group>"; };
+		7ACD8E642C04856D003BEF3A /* TetrominoHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetrominoHelper.swift; sourceTree = "<group>"; };
+		7ACD8E672C0486BB003BEF3A /* Tetris.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tetris.storyboard; sourceTree = "<group>"; };
+		7ACD8E692C04873A003BEF3A /* TetrisMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetrisMainViewController.swift; sourceTree = "<group>"; };
+		7ACD8E6B2C04879A003BEF3A /* BoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardViewController.swift; sourceTree = "<group>"; };
+		7ACD8E6D2C048812003BEF3A /* NextTetrominoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextTetrominoViewController.swift; sourceTree = "<group>"; };
+		7ACD8E6F2C04882D003BEF3A /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		7ADED7392C0ED20A009339FB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7AF257C12C0488D700359DBD /* TetrisAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = TetrisAssets.xcassets; sourceTree = "<group>"; };
+		7AF257C42C04898900359DBD /* Tetromino.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tetromino.swift; sourceTree = "<group>"; };
+		7AF257C62C0489A400359DBD /* tetrisboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tetrisboard.swift; sourceTree = "<group>"; };
+		9BFD6ECA2C136CB200BC39D3 /* WeeklyProgress.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WeeklyProgress.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05C8F28E2BF36A2B00CB1F67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B5E4132C15663600752B69 /* GoogleSignInSwift in Frameworks */,
+				7A77CE0C2BFDAE2F000B6365 /* FirebaseAuth in Frameworks */,
+				62B5E4112C15663600752B69 /* GoogleSignIn in Frameworks */,
+				62AA2C1D2C1168E7003FAACB /* FirebaseFirestore in Frameworks */,
+				62B5E40E2C1473BE00752B69 /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05C8F2882BF36A2B00CB1F67 = {
+			isa = PBXGroup;
+			children = (
+				51936E4F2C0ED82C00963F88 /* ML Model */,
+				05C8F2932BF36A2B00CB1F67 /* Sunetra */,
+				51E5EDDA2C05163C00180A1C /* Ball Tracking */,
+				51E5EDBB2C050F2F00180A1C /* Flappy Bird */,
+				7ACD8E322C0482CF003BEF3A /* Tetris */,
+				05C8F2922BF36A2B00CB1F67 /* Products */,
+				262C25762C092B0000331541 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		05C8F2922BF36A2B00CB1F67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05C8F2912BF36A2B00CB1F67 /* Sunetra.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05C8F2932BF36A2B00CB1F67 /* Sunetra */ = {
+			isa = PBXGroup;
+			children = (
+				62B5E4142C15A34C00752B69 /* Sunetra.entitlements */,
+				05C8F2942BF36A2B00CB1F67 /* AppDelegate.swift */,
+				05C8F2962BF36A2B00CB1F67 /* SceneDelegate.swift */,
+				05C8F29A2BF36A2B00CB1F67 /* Main.storyboard */,
+				05C8F29F2BF36A2B00CB1F67 /* LaunchScreen.storyboard */,
+				9B8D20492C10642E00F4C1EF /* Onboarding */,
+				9B8D20482C1063EC00F4C1EF /* WeeklyProgressTab */,
+				9B8D204A2C10645900F4C1EF /* Login */,
+				9B8D204B2C10648200F4C1EF /* UserProfile */,
+				9B8D204C2C1064AA00F4C1EF /* DetectionProcess */,
+				9B8D20452C1062E000F4C1EF /* ExercisesTab */,
+				62AA2BAD2C03962A003FAACB /* DataModel.swift */,
+				51E611632C0989D800390133 /* DataController.swift */,
+				26B15BD72C0991A800327DBA /* UserInfo.swift */,
+				62AA2BB52C045A6A003FAACB /* UIColor+Hex.swift */,
+				51BF6D3B2C0ED9080033CCC7 /* UIImage+PixelBuffer.swift */,
+				05C8F2A22BF36A2B00CB1F67 /* Info.plist */,
+				7A77CE082BFDADBB000B6365 /* GoogleService-Info.plist */,
+				05C8F29D2BF36A2B00CB1F67 /* Assets.xcassets */,
+			);
+			path = Sunetra;
+			sourceTree = "<group>";
+		};
+		262C25762C092B0000331541 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51936E4F2C0ED82C00963F88 /* ML Model */ = {
+			isa = PBXGroup;
+			children = (
+				519C0FE82C175096001DEEBD /* ML_Model_v2.mlmodel */,
+				51BF6D3D2C0ED9E80033CCC7 /* ML_Model.mlmodel */,
+			);
+			path = "ML Model";
+			sourceTree = "<group>";
+		};
+		51E5EDBB2C050F2F00180A1C /* Flappy Bird */ = {
+			isa = PBXGroup;
+			children = (
+				51E5EDD42C05130500180A1C /* bg.png */,
+				51E5EDD22C05130500180A1C /* flappy1.png */,
+				51E5EDD32C05130500180A1C /* flappy2.png */,
+				51E5EDD02C05130500180A1C /* pipe1.png */,
+				51E5EDD12C05130500180A1C /* pipe2.png */,
+				51E5EDCC2C05100900180A1C /* GameScene.sks */,
+				51E5EDCE2C05104E00180A1C /* Actions.sks */,
+				51E5EDC62C050F8600180A1C /* GameScene.swift */,
+				51E5EDC82C050F9D00180A1C /* GameViewController.swift */,
+				51E5EDCA2C050FC700180A1C /* FlappyBird.storyboard */,
+				62AA2BB92C059EAC003FAACB /* FlappyStartViewController.swift */,
+			);
+			path = "Flappy Bird";
+			sourceTree = "<group>";
+		};
+		51E5EDDA2C05163C00180A1C /* Ball Tracking */ = {
+			isa = PBXGroup;
+			children = (
+				7A475CE22C06DFC20027E5EF /* eye_exercise.mp4 */,
+				51E5EDDB2C05165800180A1C /* BallTracking.storyboard */,
+				7A475CE62C06E22E0027E5EF /* ballTrackingStartViewController.swift */,
+				7A475CE42C06E02A0027E5EF /* ballTrackingViewController.swift */,
+				7ADED7392C0ED20A009339FB /* Extensions.swift */,
+			);
+			path = "Ball Tracking";
+			sourceTree = "<group>";
+		};
+		7ACD8E322C0482CF003BEF3A /* Tetris */ = {
+			isa = PBXGroup;
+			children = (
+				7AF257C32C04896A00359DBD /* TetrisModel */,
+				7ACD8E662C0486A5003BEF3A /* TetrisView */,
+				7ACD8E4D2C048482003BEF3A /* Services */,
+				7ACD8E422C0483CD003BEF3A /* Utils */,
+				7ACD8E382C048344003BEF3A /* Keys */,
+				7ACD8E332C048304003BEF3A /* Assests */,
+				7AF257C12C0488D700359DBD /* TetrisAssets.xcassets */,
+			);
+			path = Tetris;
+			sourceTree = "<group>";
+		};
+		7ACD8E332C048304003BEF3A /* Assests */ = {
+			isa = PBXGroup;
+			children = (
+				7ACD8E342C048336003BEF3A /* Abang.otf */,
+				7ACD8E352C048336003BEF3A /* tetris_soundtrack.mp3 */,
+			);
+			path = Assests;
+			sourceTree = "<group>";
+		};
+		7ACD8E382C048344003BEF3A /* Keys */ = {
+			isa = PBXGroup;
+			children = (
+				7ACD8E392C048362003BEF3A /* SongKeys.swift */,
+				7ACD8E3B2C048371003BEF3A /* StoreKeys.swift */,
+				7ACD8E3D2C048380003BEF3A /* SequeKeys.swift */,
+				7ACD8E402C04839A003BEF3A /* ColorKeys.swift */,
+			);
+			path = Keys;
+			sourceTree = "<group>";
+		};
+		7ACD8E422C0483CD003BEF3A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7ACD8E432C0483E6003BEF3A /* MovementDirectionEnum.swift */,
+				7ACD8E452C0483F9003BEF3A /* ServiceLocator.swift */,
+				7ACD8E472C04840C003BEF3A /* ViewHelper.swift */,
+				7ACD8E492C048431003BEF3A /* ViewControllerExtensions.swift */,
+				7ACD8E4B2C048441003BEF3A /* TetrominoDrawer.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		7ACD8E4D2C048482003BEF3A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7ACD8E4E2C0484A9003BEF3A /* MediaPlayerServiceProtocol.swift */,
+				7ACD8E502C0484BC003BEF3A /* MediaPlayerService.swift */,
+				7ACD8E542C0484DF003BEF3A /* GameServiceProtocol.swift */,
+				7ACD8E562C0484F2003BEF3A /* GameService.swift */,
+				7ACD8E582C04850B003BEF3A /* TimerService.swift */,
+				7ACD8E5A2C04851A003BEF3A /* TimerServiceProtocol.swift */,
+				7ACD8E5C2C04852B003BEF3A /* BoardServiceProtocol.swift */,
+				7ACD8E602C048546003BEF3A /* BoardService.swift */,
+				7ACD8E622C04855B003BEF3A /* TetrominoHelperProtocol.swift */,
+				7ACD8E642C04856D003BEF3A /* TetrominoHelper.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7ACD8E662C0486A5003BEF3A /* TetrisView */ = {
+			isa = PBXGroup;
+			children = (
+				7ACD8E672C0486BB003BEF3A /* Tetris.storyboard */,
+				62AA2BBB2C059F59003FAACB /* TetrisStartViewController.swift */,
+				7ACD8E692C04873A003BEF3A /* TetrisMainViewController.swift */,
+				7ACD8E6B2C04879A003BEF3A /* BoardViewController.swift */,
+				7ACD8E6D2C048812003BEF3A /* NextTetrominoViewController.swift */,
+				7ACD8E6F2C04882D003BEF3A /* SettingsViewController.swift */,
+			);
+			path = TetrisView;
+			sourceTree = "<group>";
+		};
+		7AF257C32C04896A00359DBD /* TetrisModel */ = {
+			isa = PBXGroup;
+			children = (
+				7AF257C42C04898900359DBD /* Tetromino.swift */,
+				7AF257C62C0489A400359DBD /* tetrisboard.swift */,
+			);
+			path = TetrisModel;
+			sourceTree = "<group>";
+		};
+		9B8D20452C1062E000F4C1EF /* ExercisesTab */ = {
+			isa = PBXGroup;
+			children = (
+				9B8D20462C10632600F4C1EF /* View */,
+				9B8D20472C10633F00F4C1EF /* Controller */,
+				62AA2C162C0B48EC003FAACB /* FourthCollectionViewCell.swift */,
+				62AA2BB12C039E62003FAACB /* FirstCollectionViewCell.swift */,
+				62AA2BB32C039E7A003FAACB /* SecondCollectionViewCell.swift */,
+				628589FB2C142194003BB052 /* PaddedLabel.swift */,
+			);
+			path = ExercisesTab;
+			sourceTree = "<group>";
+		};
+		9B8D20462C10632600F4C1EF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0581653F2BFB5AA1003C7FEC /* Exercises.storyboard */,
+				62AA2C122C0AF1B4003FAACB /* Fourth.xib */,
+				62AA2BBF2C05B3E8003FAACB /* FirstSection.storyboard */,
+				62AA2BA92C035A4D003FAACB /* First.xib */,
+				62AA2BAB2C035AC1003FAACB /* Second.xib */,
+				62AA2BC12C087650003FAACB /* Third.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9B8D20472C10633F00F4C1EF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				62AA2BAF2C039828003FAACB /* ExercisesViewController.swift */,
+				62AA2C142C0B487B003FAACB /* GamesProgressViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9B8D20482C1063EC00F4C1EF /* WeeklyProgressTab */ = {
+			isa = PBXGroup;
+			children = (
+				9BFD6ECA2C136CB200BC39D3 /* WeeklyProgress.storyboard */,
+				51F61C902C045CDE00CC5FEC /* WeeklyDetection.storyboard */,
+				05BA4B802BF61E4600385196 /* ProgressViewController.swift */,
+				26B9D5FF2C0776B000EE547D /* WeeklyDetectionViewController.swift */,
+				51F61C942C045F0900CC5FEC /* WeeklyDetectionResultViewController.swift */,
+			);
+			path = WeeklyProgressTab;
+			sourceTree = "<group>";
+		};
+		9B8D20492C10642E00F4C1EF /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				5128B4532BFDC37B00119159 /* Onboarding.storyboard */,
+				51E507432C048B0F0067016F /* OnboardingStartViewController.swift */,
+				26B925032C08482700DDD13B /* OnboardingSecondViewController.swift */,
+				51F61C8C2C0446BB00CC5FEC /* OnboardingFinalViewController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		9B8D204A2C10645900F4C1EF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				7A6AE4012BFB0B0A0058B46E /* Login.storyboard */,
+				7A77CE042BFDABD0000B6365 /* loginViewController.swift */,
+				7A77CE062BFDABE8000B6365 /* signUpViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		9B8D204B2C10648200F4C1EF /* UserProfile */ = {
+			isa = PBXGroup;
+			children = (
+				0591DCDF2BFB051700CBCF36 /* Profile.storyboard */,
+				0591DCE32BFB2FB900CBCF36 /* ProfileTableViewController.swift */,
+				511E4C5B2C11D43D0006FD7B /* FAQTableViewController.swift */,
+			);
+			path = UserProfile;
+			sourceTree = "<group>";
+		};
+		9B8D204C2C1064AA00F4C1EF /* DetectionProcess */ = {
+			isa = PBXGroup;
+			children = (
+				62AA2B292BF7110A003FAACB /* Detection.storyboard */,
+				5137601E2C190B3600305A90 /* DetectionAvatarViewController.swift */,
+				5128B4572BFDD53900119159 /* DetectionViewController.swift */,
+				26B9D6012C0779A300EE547D /* PersonalDetailsViewController.swift */,
+				26B9D5FB2C07758F00EE547D /* DetectionResultViewController.swift */,
+			);
+			path = DetectionProcess;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05C8F2902BF36A2B00CB1F67 /* Sunetra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05C8F2A52BF36A2B00CB1F67 /* Build configuration list for PBXNativeTarget "Sunetra" */;
+			buildPhases = (
+				05C8F28D2BF36A2B00CB1F67 /* Sources */,
+				05C8F28E2BF36A2B00CB1F67 /* Frameworks */,
+				05C8F28F2BF36A2B00CB1F67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sunetra;
+			packageProductDependencies = (
+				7A77CE0B2BFDAE2F000B6365 /* FirebaseAuth */,
+				62AA2C1C2C1168E7003FAACB /* FirebaseFirestore */,
+				62B5E40D2C1473BE00752B69 /* FirebaseStorage */,
+				62B5E4102C15663600752B69 /* GoogleSignIn */,
+				62B5E4122C15663600752B69 /* GoogleSignInSwift */,
+			);
+			productName = Sunetra;
+			productReference = 05C8F2912BF36A2B00CB1F67 /* Sunetra.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05C8F2892BF36A2B00CB1F67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					05C8F2902BF36A2B00CB1F67 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 05C8F28C2BF36A2B00CB1F67 /* Build configuration list for PBXProject "Sunetra" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05C8F2882BF36A2B00CB1F67;
+			packageReferences = (
+				7A77CE0A2BFDAE2F000B6365 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				62B5E40F2C15663600752B69 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			productRefGroup = 05C8F2922BF36A2B00CB1F67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05C8F2902BF36A2B00CB1F67 /* Sunetra */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05C8F28F2BF36A2B00CB1F67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BFD6ECB2C136CB200BC39D3 /* WeeklyProgress.storyboard in Resources */,
+				51E5EDDC2C05165800180A1C /* BallTracking.storyboard in Resources */,
+				62AA2BC22C087650003FAACB /* Third.xib in Resources */,
+				51E5EDCB2C050FC700180A1C /* FlappyBird.storyboard in Resources */,
+				51E5EDD72C05130500180A1C /* flappy1.png in Resources */,
+				0591DCE02BFB051700CBCF36 /* Profile.storyboard in Resources */,
+				5128B4542BFDC37B00119159 /* Onboarding.storyboard in Resources */,
+				7AF257C22C0488D700359DBD /* TetrisAssets.xcassets in Resources */,
+				51E5EDCD2C05100900180A1C /* GameScene.sks in Resources */,
+				51E5EDD52C05130500180A1C /* pipe1.png in Resources */,
+				62AA2C132C0AF1B4003FAACB /* Fourth.xib in Resources */,
+				05C8F2A12BF36A2B00CB1F67 /* LaunchScreen.storyboard in Resources */,
+				62AA2BC02C05B3E8003FAACB /* FirstSection.storyboard in Resources */,
+				7ACD8E682C0486BB003BEF3A /* Tetris.storyboard in Resources */,
+				51E5EDD62C05130500180A1C /* pipe2.png in Resources */,
+				7A77CE092BFDADBB000B6365 /* GoogleService-Info.plist in Resources */,
+				51F61C912C045CDE00CC5FEC /* WeeklyDetection.storyboard in Resources */,
+				05C8F29E2BF36A2B00CB1F67 /* Assets.xcassets in Resources */,
+				7ACD8E362C048336003BEF3A /* Abang.otf in Resources */,
+				62AA2B2A2BF7110A003FAACB /* Detection.storyboard in Resources */,
+				7A6AE4022BFB0B0A0058B46E /* Login.storyboard in Resources */,
+				51E5EDCF2C05104E00180A1C /* Actions.sks in Resources */,
+				058165402BFB5AA1003C7FEC /* Exercises.storyboard in Resources */,
+				7ACD8E372C048336003BEF3A /* tetris_soundtrack.mp3 in Resources */,
+				51E5EDD92C05130500180A1C /* bg.png in Resources */,
+				51E5EDD82C05130500180A1C /* flappy2.png in Resources */,
+				7A475CE32C06DFC30027E5EF /* eye_exercise.mp4 in Resources */,
+				62AA2BAA2C035A4D003FAACB /* First.xib in Resources */,
+				05C8F29C2BF36A2B00CB1F67 /* Main.storyboard in Resources */,
+				62AA2BAC2C035AC1003FAACB /* Second.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05C8F28D2BF36A2B00CB1F67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ACD8E572C0484F2003BEF3A /* GameService.swift in Sources */,
+				62AA2BB42C039E7A003FAACB /* SecondCollectionViewCell.swift in Sources */,
+				7A77CE052BFDABD0000B6365 /* loginViewController.swift in Sources */,
+				51F61C952C045F0900CC5FEC /* WeeklyDetectionResultViewController.swift in Sources */,
+				7ACD8E4C2C048441003BEF3A /* TetrominoDrawer.swift in Sources */,
+				51E611642C0989D800390133 /* DataController.swift in Sources */,
+				7ACD8E462C0483F9003BEF3A /* ServiceLocator.swift in Sources */,
+				62AA2BB02C039828003FAACB /* ExercisesViewController.swift in Sources */,
+				7ACD8E6A2C04873A003BEF3A /* TetrisMainViewController.swift in Sources */,
+				62AA2BBC2C059F59003FAACB /* TetrisStartViewController.swift in Sources */,
+				62AA2BB62C045A6A003FAACB /* UIColor+Hex.swift in Sources */,
+				26B15BD82C0991A800327DBA /* UserInfo.swift in Sources */,
+				7ACD8E3C2C048371003BEF3A /* StoreKeys.swift in Sources */,
+				7ACD8E612C048546003BEF3A /* BoardService.swift in Sources */,
+				7ACD8E3A2C048362003BEF3A /* SongKeys.swift in Sources */,
+				7ACD8E632C04855B003BEF3A /* TetrominoHelperProtocol.swift in Sources */,
+				7ACD8E482C04840C003BEF3A /* ViewHelper.swift in Sources */,
+				7ACD8E442C0483E6003BEF3A /* MovementDirectionEnum.swift in Sources */,
+				628589FC2C142194003BB052 /* PaddedLabel.swift in Sources */,
+				519C0FE92C175096001DEEBD /* ML_Model_v2.mlmodel in Sources */,
+				62AA2BBA2C059EAC003FAACB /* FlappyStartViewController.swift in Sources */,
+				7ACD8E6E2C048812003BEF3A /* NextTetrominoViewController.swift in Sources */,
+				62AA2C152C0B487B003FAACB /* GamesProgressViewController.swift in Sources */,
+				62AA2BAE2C03962A003FAACB /* DataModel.swift in Sources */,
+				7A475CE52C06E02A0027E5EF /* ballTrackingViewController.swift in Sources */,
+				7A77CE072BFDABE8000B6365 /* signUpViewController.swift in Sources */,
+				26B9D5FC2C07758F00EE547D /* DetectionResultViewController.swift in Sources */,
+				0591DCE42BFB2FB900CBCF36 /* ProfileTableViewController.swift in Sources */,
+				7ACD8E6C2C04879A003BEF3A /* BoardViewController.swift in Sources */,
+				7ACD8E552C0484DF003BEF3A /* GameServiceProtocol.swift in Sources */,
+				7ACD8E412C04839A003BEF3A /* ColorKeys.swift in Sources */,
+				7ACD8E5D2C04852B003BEF3A /* BoardServiceProtocol.swift in Sources */,
+				7ACD8E4F2C0484A9003BEF3A /* MediaPlayerServiceProtocol.swift in Sources */,
+				7ACD8E652C04856D003BEF3A /* TetrominoHelper.swift in Sources */,
+				51E5EDC92C050F9D00180A1C /* GameViewController.swift in Sources */,
+				5137601F2C190B3600305A90 /* DetectionAvatarViewController.swift in Sources */,
+				7AF257C72C0489A400359DBD /* tetrisboard.swift in Sources */,
+				5128B4582BFDD53900119159 /* DetectionViewController.swift in Sources */,
+				7ACD8E512C0484BC003BEF3A /* MediaPlayerService.swift in Sources */,
+				7ACD8E5B2C04851A003BEF3A /* TimerServiceProtocol.swift in Sources */,
+				62AA2C172C0B48EC003FAACB /* FourthCollectionViewCell.swift in Sources */,
+				7ACD8E702C04882D003BEF3A /* SettingsViewController.swift in Sources */,
+				51BF6D3C2C0ED9080033CCC7 /* UIImage+PixelBuffer.swift in Sources */,
+				7ACD8E4A2C048431003BEF3A /* ViewControllerExtensions.swift in Sources */,
+				51BF6D3E2C0ED9E80033CCC7 /* ML_Model.mlmodel in Sources */,
+				26B9D6022C0779A300EE547D /* PersonalDetailsViewController.swift in Sources */,
+				05C8F2952BF36A2B00CB1F67 /* AppDelegate.swift in Sources */,
+				511E4C5C2C11D43D0006FD7B /* FAQTableViewController.swift in Sources */,
+				05C8F2972BF36A2B00CB1F67 /* SceneDelegate.swift in Sources */,
+				26B9D6002C0776B000EE547D /* WeeklyDetectionViewController.swift in Sources */,
+				26B925042C08482700DDD13B /* OnboardingSecondViewController.swift in Sources */,
+				62AA2BB22C039E62003FAACB /* FirstCollectionViewCell.swift in Sources */,
+				51E5EDC72C050F8600180A1C /* GameScene.swift in Sources */,
+				7ACD8E592C04850B003BEF3A /* TimerService.swift in Sources */,
+				7A475CE72C06E22E0027E5EF /* ballTrackingStartViewController.swift in Sources */,
+				7AF257C52C04898900359DBD /* Tetromino.swift in Sources */,
+				7ACD8E3E2C048380003BEF3A /* SequeKeys.swift in Sources */,
+				51F61C8D2C0446BB00CC5FEC /* OnboardingFinalViewController.swift in Sources */,
+				7ADED73A2C0ED20A009339FB /* Extensions.swift in Sources */,
+				05BA4B812BF61E4600385196 /* ProgressViewController.swift in Sources */,
+				51E507442C048B0F0067016F /* OnboardingStartViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		05C8F29A2BF36A2B00CB1F67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05C8F29B2BF36A2B00CB1F67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		05C8F29F2BF36A2B00CB1F67 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05C8F2A02BF36A2B00CB1F67 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05C8F2A32BF36A2B00CB1F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05C8F2A42BF36A2B00CB1F67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05C8F2A62BF36A2B00CB1F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Sunetra/Sunetra.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2TDU9DYK84;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sunetra/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "camera app video";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Sunetra1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05C8F2A72BF36A2B00CB1F67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Sunetra/Sunetra.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2TDU9DYK84;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sunetra/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "camera app video";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Sunetra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05C8F28C2BF36A2B00CB1F67 /* Build configuration list for PBXProject "Sunetra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05C8F2A32BF36A2B00CB1F67 /* Debug */,
+				05C8F2A42BF36A2B00CB1F67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05C8F2A52BF36A2B00CB1F67 /* Build configuration list for PBXNativeTarget "Sunetra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05C8F2A62BF36A2B00CB1F67 /* Debug */,
+				05C8F2A72BF36A2B00CB1F67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		62B5E40F2C15663600752B69 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.1.0;
+			};
+		};
+		7A77CE0A2BFDAE2F000B6365 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.26.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		62AA2C1C2C1168E7003FAACB /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7A77CE0A2BFDAE2F000B6365 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		62B5E40D2C1473BE00752B69 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7A77CE0A2BFDAE2F000B6365 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		62B5E4102C15663600752B69 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 62B5E40F2C15663600752B69 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		62B5E4122C15663600752B69 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 62B5E40F2C15663600752B69 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		7A77CE0B2BFDAE2F000B6365 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7A77CE0A2BFDAE2F000B6365 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 05C8F2892BF36A2B00CB1F67 /* Project object */;
+}

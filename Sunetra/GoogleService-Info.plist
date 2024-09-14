@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>892551146029-7arb0usu69ad5nkk1rdmdbahspniav5j.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.892551146029-7arb0usu69ad5nkk1rdmdbahspniav5j</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCu2VW6T2NrXy9uGDYtDF1c-6mrdmlbHSE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>892551146029</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.Sunetra</string>
+	<key>PROJECT_ID</key>
+	<string>sunetramain</string>
+	<key>STORAGE_BUCKET</key>
+	<string>sunetramain.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:892551146029:ios:480a74220002df2f0fa6a4</string>
+	<key>DATABASE_URL</key>
+	<string>https://sunetramain-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

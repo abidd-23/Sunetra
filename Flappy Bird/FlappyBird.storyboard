@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Knv-vA-Pa5">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Flappy Start View Controller-->
+        <scene sceneID="qrw-md-YjE">
+            <objects>
+                <viewController storyboardIdentifier="HomeFlappyBirdViewController" id="Knv-vA-Pa5" customClass="FlappyStartViewController" customModule="Sunetra" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3mL-Ge-MbS">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FlappyBird" translatesAutoresizingMaskIntoConstraints="NO" id="V0q-Q7-GQI">
+                                <rect key="frame" x="52" y="89" width="289" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="knX-EL-IAG"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flappy Bird" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kd9-OO-dID">
+                                <rect key="frame" x="123.33333333333333" y="364" width="146.33333333333337" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="iNH-qG-T2j"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                <color key="textColor" red="0.062745098039215685" green="0.26666666666666666" blue="0.37254901960784315" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Ba-3x-b86">
+                                <rect key="frame" x="52" y="419" width="289" height="125"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="125" id="ngu-gg-Xny"/>
+                                </constraints>
+                                <string key="text">Flappy Bird is a simple game where players navigate a bird through a series of obstacles by tapping the screen to flap its wings. It is a game that helps the user improve strabismus.</string>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                <color key="textColor" red="0.062745098039215685" green="0.26666666666666666" blue="0.37254901960784315" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please Wear Your Eye Patch!!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ct6-Dh-Nas">
+                                <rect key="frame" x="71.666666666666686" y="574" width="250" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="fud-aH-RSv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <color key="textColor" red="0.96078431372549022" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F3x-HX-P78">
+                                <rect key="frame" x="52" y="631" width="289" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="TjR-bd-6c5"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Start" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="17"/>
+                                    <color key="baseBackgroundColor" red="0.062745098039215685" green="0.26666666666666666" blue="0.37254901960784315" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="flappyStartTapped:" destination="Knv-vA-Pa5" eventType="touchUpInside" id="wnu-mj-W0W"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="z9G-MQ-Mcq"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="z9G-MQ-Mcq" firstAttribute="trailing" secondItem="9Ba-3x-b86" secondAttribute="trailing" constant="52" id="2d6-4c-767"/>
+                            <constraint firstItem="ct6-Dh-Nas" firstAttribute="top" secondItem="9Ba-3x-b86" secondAttribute="bottom" constant="30" id="DIP-G2-gHP"/>
+                            <constraint firstItem="F3x-HX-P78" firstAttribute="leading" secondItem="z9G-MQ-Mcq" secondAttribute="leading" constant="52" id="N1t-1T-kPo"/>
+                            <constraint firstItem="V0q-Q7-GQI" firstAttribute="leading" secondItem="z9G-MQ-Mcq" secondAttribute="leading" constant="52" id="VWk-NQ-ece"/>
+                            <constraint firstItem="z9G-MQ-Mcq" firstAttribute="trailing" secondItem="F3x-HX-P78" secondAttribute="trailing" constant="52" id="WwQ-j2-efr"/>
+                            <constraint firstItem="V0q-Q7-GQI" firstAttribute="top" secondItem="z9G-MQ-Mcq" secondAttribute="top" constant="30" id="Xbt-4c-9Ov"/>
+                            <constraint firstItem="9Ba-3x-b86" firstAttribute="top" secondItem="kd9-OO-dID" secondAttribute="bottom" constant="25" id="XcY-xg-8Ax"/>
+                            <constraint firstItem="ct6-Dh-Nas" firstAttribute="centerX" secondItem="3mL-Ge-MbS" secondAttribute="centerX" id="bq5-jg-sXi"/>
+                            <constraint firstItem="F3x-HX-P78" firstAttribute="top" secondItem="ct6-Dh-Nas" secondAttribute="bottom" constant="35" id="dn3-8G-0YY"/>
+                            <constraint firstItem="9Ba-3x-b86" firstAttribute="leading" secondItem="z9G-MQ-Mcq" secondAttribute="leading" constant="52" id="eYT-1H-c0C"/>
+                            <constraint firstItem="kd9-OO-dID" firstAttribute="top" secondItem="V0q-Q7-GQI" secondAttribute="bottom" constant="25" id="kpi-lQ-QZg"/>
+                            <constraint firstItem="kd9-OO-dID" firstAttribute="centerX" secondItem="3mL-Ge-MbS" secondAttribute="centerX" id="tKd-wK-AnR"/>
+                            <constraint firstItem="z9G-MQ-Mcq" firstAttribute="trailing" secondItem="V0q-Q7-GQI" secondAttribute="trailing" constant="52" id="yLq-a5-BPU"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1k3-Vl-KPT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-784" y="-28"/>
+        </scene>
+        <!--Game View Controller-->
+        <scene sceneID="Kv8-TS-wBo">
+            <objects>
+                <viewController storyboardIdentifier="flappybird" useStoryboardIdentifierAsRestorationIdentifier="YES" id="6Uk-zb-eMT" customClass="GameViewController" customModule="Sunetra" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="Grv-Xx-mk5" customClass="SKView">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="5aE-lC-p7C"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9mI-hz-F2d" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="-28"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="FlappyBird" width="1136" height="1040"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
